@@ -36,3 +36,61 @@ ul,
 ol {
   list-style: none;
 }
+
+
+.visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+
+.content {
+  padding-top: 133px;
+  margin: 0 30px 133px 30px;
+  display: flex;
+  align-items: end;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+
+.button {
+  align-self: end;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #FFF;
+
+  text-align: center;
+  font-family: inherit;
+  color: inherit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  cursor: pointer;
+}
+
+.button:active {
+  background: #545050;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 2px;
+}
