@@ -58,6 +58,8 @@ ol {
   align-items: end;
   gap: 30px;
   justify-content: space-between;
+  /*@Юрий_Амбарцумян say: Из-за того, что не задан inline-size: 1140px;*/
+  /*https://app.pachca.com/chats?thread_message_id=314015075&sidebar_message=314082777*/
   inline-size: 1140px
 }
 
