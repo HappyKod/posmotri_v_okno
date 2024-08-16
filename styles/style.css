@@ -67,7 +67,7 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #FFF;
+  border: 1px solid currentColor;
 
   text-align: center;
   font-family: inherit;

@@ -44,9 +44,15 @@
   font-weight: 700;
   line-height: 100%;
   text-transform: uppercase;
+  max-width: 200px;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .content__video-card-description {
+  max-width: 200px;
   margin-top: 6px;
   line-height: 90%
 }
@@ -55,6 +61,7 @@
   width: 194px;
   height: 103px;
   object-fit: cover;
+  object-position: center;
 }
 
 .content__details {
@@ -77,13 +84,12 @@
   margin-bottom: 34px;
 }
 
-/*js added*/
-.content__card-link_current {
+/*list-state*/
+
+.content__card-link_current, /*js added*/
+.content__card-link:active {
   background: #545050;
 }
-
-
-/*list-state*/
 
 .content__card-link:focus {
   outline: none;

@@ -32,7 +32,7 @@ fieldset {
   background: transparent;
   padding: 0;
   width: 223px;
-  height: 27px;
+  min-height: 27px;
   border: 1px solid #fff;
   border-right: 0;
   border-left: 0;
