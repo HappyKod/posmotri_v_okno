@@ -58,6 +58,7 @@ ol {
   align-items: end;
   gap: 30px;
   justify-content: space-between;
+  inline-size: 1140px
 }
 
 
